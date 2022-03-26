@@ -18,6 +18,8 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
+    <link href="https://pbs.twimg.com/profile_images/1453372321649942533/1GMYwyOX_400x400.jpg" rel="icon">
 </head>
 <body>
     <div id="app">

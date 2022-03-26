@@ -33,7 +33,7 @@
                         <a type="button" href="{{url('/post/delete', $post->id)}}" class="btn btn-danger">Delete</a>
                     </div><br>
                     <span class="text-small text-muted">{{date('- F jS, Y', strtotime($post->created_at))}}</span>
-                    <div class="fs-5">{{$post->body}}</div>
+                    <div class="fs-5 mt-4">{{$post->body}}</div>
                     <span class="text-small text-muted">by {{$post->user->name}}</span>
                     </div>
                     <hr>

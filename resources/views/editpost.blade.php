@@ -15,7 +15,7 @@
                         </div>
                         <div class="mb-3">
                             <label for="exampleFormControlTextarea1" class="form-label">Body</label>
-                            <textarea class="form-control" id="body" name="body" rows="3" placeholder="Body">{{$post->body}}</textarea>
+                            <textarea class="form-control" id="body" name="body" rows="5" placeholder="Body">{{$post->body}}</textarea>
                         </div>
                         <button type="submit" class="btn btn-primary" value="Update" id="liveToastBtn">Update</button>
                     </div>
