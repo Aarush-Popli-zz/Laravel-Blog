@@ -86,7 +86,7 @@
             @yield('content')
         </main>
     </div>
-    <footer class="bg-light text-center text-lg-start">
+    <footer class="bg-light text-center text-lg-start" style="position: fixed; left: 0; bottom: 0; width: 100%;">
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);"> © 2022 Copyright:
             <a class="text-dark" href="/">blogit.in</a>
         </div>
